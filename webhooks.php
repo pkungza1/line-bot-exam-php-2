@@ -1,6 +1,6 @@
 <?php
  
-$strAccessToken = "ACCESS_TOKEN";
+$strAccessToken = "EbIsVceqJPK7JI403wzZ4yTInt2rLLvX4ItiwK7iBAb";
  
 $strUrl = "https://api.line.me/v2/bot/message/push";
  
@@ -9,7 +9,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
-$arrPostData['to'] = "USER_ID";
+$arrPostData['to'] = "U299a312eaf887dbd304427744e45778a";
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "นี้คือการทดสอบ Push Message";
  
