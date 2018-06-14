@@ -1,5 +1,18 @@
 {
-    "require": {
-        "linecorp/line-bot-sdk": "^2.3"
-    }
+	"events": [
+		{
+			"type": "message",
+			"replyToken": "ค่า replyToken ของเราที่สนทนากับ bot",
+			"source": {
+				"userId": "ไอดีของ user line ของเรา",
+				"type": "user"
+			},
+			"timestamp": 1510665495557,
+			"message": {
+				"type": "text",
+				"id": "ไอดีของข้อความ",
+				"text": "ข้อความที่เราส่งไป"
+			}
+		}
+	]
 }
